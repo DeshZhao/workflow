@@ -365,3 +365,9 @@ cc_binary(
 	 srcs = ['tutorial/tutorial-13-kafka_cli.cc'],
 	 deps = [':kafka', ':workflow_hdrs'],
 )
+
+# cc_binary(
+# 	 name = 'Http_client',
+# 	 srcs = ['tutorial/tutorial-14-Http_client.cc'],
+# 	 deps = [':http'],
+# )
